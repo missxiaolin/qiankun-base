@@ -8,8 +8,8 @@ module.exports = {
     },
     configureWebpack: {
         output: {
+            library: 'vueApp',
             libraryTarget: 'umd',
-            library: 'appVue'
         }
     }
 }
